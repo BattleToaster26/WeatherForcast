@@ -19,6 +19,7 @@
 		72562A592742F66D00115C51 /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72562A582742F66D00115C51 /* WeatherDetail.swift */; };
 		72562A5B2742F67C00115C51 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72562A5A2742F67C00115C51 /* DailyWeather.swift */; };
 		72562A5D2742F68F00115C51 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72562A5C2742F68F00115C51 /* Temperature.swift */; };
+		72EF062C2745855200AFDB13 /* CityViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EF062B2745855200AFDB13 /* CityViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		72562A582742F66D00115C51 /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
 		72562A5A2742F67C00115C51 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
 		72562A5C2742F68F00115C51 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		72EF062B2745855200AFDB13 /* CityViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		72562A4C2742E46300115C51 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				72EF062B2745855200AFDB13 /* CityViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72562A512742E74E00115C51 /* API+Extension.swift in Sources */,
+				72EF062C2745855200AFDB13 /* CityViewViewModel.swift in Sources */,
 				72562A592742F66D00115C51 /* WeatherDetail.swift in Sources */,
 				72562A552742F55100115C51 /* WeatherResponse.swift in Sources */,
 				72562A3E2742E12800115C51 /* ContentView.swift in Sources */,
